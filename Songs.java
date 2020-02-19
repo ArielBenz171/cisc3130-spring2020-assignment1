@@ -8,7 +8,7 @@ class Songs{
     String[][] myList = new String[rows][cols];
     for(int i = 0; i < rows; i++){
       for(int j = 0; j < cols; j++){
-        myList[i][j] = sc.hasNext();
+        myList[i][j] = sc.Next();
       }
     }
     int[][] arr = { { 1, 2 }, { 3, 4 } };
